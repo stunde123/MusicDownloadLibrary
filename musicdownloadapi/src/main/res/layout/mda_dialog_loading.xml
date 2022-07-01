@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="280dp"
+    android:layout_height="150dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="#000000"
+    android:gravity="center"
+    android:padding="10dip"
+    tools:ignore="ResourceName">
+
+    <ProgressBar
+        style="@android:style/Widget.ProgressBar"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:indeterminateDrawable="@drawable/mda_rotate_shape"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Loading Music, Please Waiting……"
+        android:layout_marginTop="10dp"
+        android:textColor="@android:color/white"
+        android:textSize="14sp" />
+</LinearLayout>
