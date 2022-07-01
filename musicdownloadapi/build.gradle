@@ -1,15 +1,16 @@
 plugins {
     id 'com.android.library'
 }
-
+apply plugin: "com.github.dcendents.android-maven"
+group='com.github.MusicDownloadLibrary'
 
 android {
     compileSdkVersion 30
     defaultConfig {
         minSdkVersion 21
         targetSdkVersion 30
-        versionCode 1
-        versionName "1.0"
+        versionCode 101
+        versionName "1.0.1"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles "consumer-rules.pro"
