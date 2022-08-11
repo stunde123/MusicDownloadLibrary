@@ -7,7 +7,6 @@ plugins {
 android {
     compileSdkVersion 30
 
-
     defaultConfig {
         applicationId "com.example.musiclibrary"
         minSdkVersion 21
